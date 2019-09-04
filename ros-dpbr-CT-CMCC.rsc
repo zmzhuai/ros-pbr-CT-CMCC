@@ -6323,6 +6323,7 @@ add list=dpbr-CT address=103.142.156.0/23
 add list=dpbr-CT address=103.142.172.0/23
 add list=dpbr-CT address=103.142.180.0/23
 add list=dpbr-CT address=103.142.186.0/23
+add list=dpbr-CT address=103.142.190.0/23
 add list=dpbr-CT address=103.192.8.0/22
 add list=dpbr-CT address=103.192.12.0/22
 add list=dpbr-CT address=103.192.16.0/22
