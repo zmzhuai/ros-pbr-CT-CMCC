@@ -58,18 +58,18 @@ curl https://ispip.clang.cn/cmcc_cidr.txt > /tmp/pbr/cmcc.txt && sed -i '1,/BEGI
 
 
 {
-echo "/ip firewall address-list remove [/ip firewall address-list find list=chnroutes-cnnic]"
-echo "/ip firewall address-list"
+# echo "/ip firewall address-list remove [/ip firewall address-list find list=chnroutes-cnnic]"
+# echo "/ip firewall address-list"
 
 # nets=`cat /tmp/pbr/ct.txt`
 # for net in $nets ; do
 #   echo "add list=dpbr-CT address=$net"
 # done
 
-nets=`cat /tmp/pbr/cnc.txt`
-for net in $nets ; do
-  echo "add list=chnroutes-cnnic address=$net"
-done
+# nets=`cat /tmp/pbr/cnc.txt`
+# for net in $nets ; do
+#   echo "add list=chnroutes-cnnic address=$net"
+# done
 
 echo "/ip firewall address-list remove [/ip firewall address-list find list=chnroutes-cmcc]"
 echo "/ip firewall address-list"
