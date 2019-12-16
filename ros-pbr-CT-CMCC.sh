@@ -5,7 +5,7 @@ mkdir -p /tmp/pbr
 #电信
 # curl https://bgp.space/chinatelecom.html > /tmp/pbr/ct.txt && sed -i '1,/BEGIN/d' /tmp/pbr/ct.txt && sed -i '/END/,$d' /tmp/pbr/ct.txt && sed -i 's/<br>//g' /tmp/pbr/ct.txt
 #联通
-curl https://ispip.clang.cn/unicom_cnc_cidr.txt > /tmp/pbr/cnb.txt
+curl https://ispip.clang.cn/unicom_cnc_cidr.txt > /tmp/pbr/cnc.txt
 #移动
 curl https://ispip.clang.cn/cmcc_cidr.txt > /tmp/pbr/cmcc.txt
 #铁通
