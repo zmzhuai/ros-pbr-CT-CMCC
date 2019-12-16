@@ -5,9 +5,9 @@ mkdir -p /tmp/pbr
 #电信
 # curl https://bgp.space/chinatelecom.html > /tmp/pbr/ct.txt && sed -i '1,/BEGIN/d' /tmp/pbr/ct.txt && sed -i '/END/,$d' /tmp/pbr/ct.txt && sed -i 's/<br>//g' /tmp/pbr/ct.txt
 #联通
-curl https://ispip.clang.cn/unicom_cnc_cidr.txt > /tmp/pbr/cnc.txt && sed -i '1,/BEGIN/d' /tmp/pbr/cnc.txt && sed -i '/END/,$d' /tmp/pbr/cnc.txt && sed -i 's/<br>//g' /tmp/pbr/cnc.txt
+curl https://ispip.clang.cn/unicom_cnc_cidr.txt
 #移动
-curl https://ispip.clang.cn/cmcc_cidr.txt > /tmp/pbr/cmcc.txt && sed -i '1,/BEGIN/d' /tmp/pbr/cmcc.txt && sed -i '/END/,$d' /tmp/pbr/cmcc.txt && sed -i 's/<br>//g' /tmp/pbr/cmcc.txt
+curl https://ispip.clang.cn/cmcc_cidr.txt
 #铁通
 # curl https://bgp.space/crtc.html > /tmp/pbr/crtc.txt && sed -i '1,/BEGIN/d' /tmp/pbr/crtc.txt && sed -i '/END/,$d' /tmp/pbr/crtc.txt && sed -i 's/<br>//g' /tmp/pbr/crtc.txt
 #教育网
@@ -102,3 +102,4 @@ done
 } > ./ros-dpbr-CT-CMCC.rsc 
 
 rm -rf /tmp/pbr
+
