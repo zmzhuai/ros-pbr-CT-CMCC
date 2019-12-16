@@ -15,8 +15,7 @@ add list=chnroutes-cmcc address=45.123.152.0/22
 add list=chnroutes-cmcc address=45.124.36.0/22
 add list=chnroutes-cmcc address=45.125.24.0/22
 add list=chnroutes-cmcc address=45.253.72.0/22
-add list=chnroutes-cmcc address=61.14.240.0/22
-add list=chnroutes-cmcc address=61.14.244.0/22
+add list=chnroutes-cmcc address=61.14.240.0/21
 add list=chnroutes-cmcc address=103.20.112.0/22
 add list=chnroutes-cmcc address=103.21.176.0/22
 add list=chnroutes-cmcc address=103.35.104.0/22
@@ -39,14 +38,8 @@ add list=chnroutes-cmcc address=120.192.0.0/10
 add list=chnroutes-cmcc address=175.176.188.0/22
 add list=chnroutes-cmcc address=183.192.0.0/10
 add list=chnroutes-cmcc address=211.103.0.0/17
-add list=chnroutes-cmcc address=211.136.0.0/14
-add list=chnroutes-cmcc address=211.140.0.0/15
-add list=chnroutes-cmcc address=211.142.0.0/17
-add list=chnroutes-cmcc address=211.142.128.0/17
-add list=chnroutes-cmcc address=211.143.0.0/16
-add list=chnroutes-cmcc address=218.200.0.0/14
-add list=chnroutes-cmcc address=218.204.0.0/15
-add list=chnroutes-cmcc address=218.206.0.0/15
+add list=chnroutes-cmcc address=211.136.0.0/13
+add list=chnroutes-cmcc address=218.200.0.0/13
 add list=chnroutes-cmcc address=221.130.0.0/15
 add list=chnroutes-cmcc address=221.176.0.0/13
 add list=chnroutes-cmcc address=223.64.0.0/11
